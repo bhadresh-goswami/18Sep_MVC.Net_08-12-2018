@@ -1,0 +1,18 @@
+﻿
+<div class="container-fluid body-content">
+    <div class="row">
+        <div class="col-lg-12">
+            @if (TempData["error"] != null)
+            {
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="alert alert-danger">
+
+                    @TempData["error"].ToString()
+                </div>
+            }
+        </div>
+    </div>
+</div>
